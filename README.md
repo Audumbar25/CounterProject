@@ -7,4 +7,4 @@ This is a simple React application that implements a counter with increment and 
 
 - **Increment Counter**: Increase the counter value by 1, up to a maximum of 20.
 - **Decrement Counter**: Decrease the counter value by 1, down to a minimum of 0.
-- **ReSetDecrement Counter**: Sets the value of counter to 0.
+- **Reset Counter**: Resets the value of counter to 0.
