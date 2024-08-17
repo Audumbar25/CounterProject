@@ -11,14 +11,20 @@ function App() {
     if(count>0) 
     setCount(count - 1);
   }
+
+
+  const Reset = () => {
+    setCount(0);
+  }
   return ( 
     <>
       <div>
         <h1>Counter Project</h1>
-         <button onClick={Add}>Increase</button>
-        <h1>{count}</h1>
+          <h1>{count}</h1>
        
         <br /><br />
+         <button onClick={Add}>Increase</button>
+        <button onClick={Reset}>Reset</button>
         <button onClick={Sub}>Decrease</button>
 
       </div>
